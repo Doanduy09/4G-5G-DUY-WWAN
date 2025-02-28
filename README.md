@@ -6,3 +6,6 @@
 ## Firmware
 - Download the firmware from this repo for ARM Cortex-A15 devices with WWAN support.
 - Flash using: `sysupgrade -n <firmware.bin>`
+## Firmware Installation
+- Download the  file from this repo.
+- Flash to your device: `sysupgrade -n <firmware.bin>`
