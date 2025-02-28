@@ -6,7 +6,7 @@ if [ -n "$WWAN_VID" ]; then
         "2c7c") modprobe qmi_wwan && modprobe cdc_mbim && echo "Loaded modules for Quectel WWAN";;
         "1199") modprobe qmi_wwan && echo "Loaded modules for Sierra Wireless WWAN";;
         "12d1") modprobe option && modprobe usbserial && echo "Loaded modules for Huawei WWAN";;
-        "2c7b") modprobe qmi_wwan && modprobe cdc_mbim && echo "Loaded modules for Fibocom WWAN";;
+        "2cb7") modprobe qmi_wwan && modprobe cdc_mbim && echo "Loaded modules for Fibocom WWAN";;
         *) echo "Unknown WWAN card detected";;
     esac
 else
